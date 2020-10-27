@@ -4,7 +4,7 @@
 
 # 가이드라인 
 
-https://blog.naver.com/gustn3964/222127992060  
+https://blog.naver.com/gustn3964/222128038449  
 
 # 구현하고자 하는 화면
 
