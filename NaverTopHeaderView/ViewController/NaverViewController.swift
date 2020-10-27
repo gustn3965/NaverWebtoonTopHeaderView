@@ -90,7 +90,7 @@ class NaverViewController : UIViewController {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
        
         NSLayoutConstraint.activate(
-            [collectionView.topAnchor.constraint(equalTo: self.view.topAnchor,constant: 88),
+            [collectionView.topAnchor.constraint(equalTo: self.view.topAnchor,constant: navigationHeightWithStatusBarHeight),
              collectionView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
              collectionView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
              collectionView.rightAnchor.constraint(equalTo: self.view.rightAnchor)])
