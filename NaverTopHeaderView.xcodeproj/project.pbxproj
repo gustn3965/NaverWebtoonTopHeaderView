@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DB88A11F2547F4DF002FC524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A11E2547F4DF002FC524 /* AppDelegate.swift */; };
 		DB88A1212547F4DF002FC524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1202547F4DF002FC524 /* SceneDelegate.swift */; };
-		DB88A1232547F4DF002FC524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1222547F4DF002FC524 /* ViewController.swift */; };
+		DB88A1232547F4DF002FC524 /* NaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1222547F4DF002FC524 /* NaverViewController.swift */; };
 		DB88A1262547F4DF002FC524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88A1242547F4DF002FC524 /* Main.storyboard */; };
 		DB88A1282547F4E0002FC524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88A1272547F4E0002FC524 /* Assets.xcassets */; };
 		DB88A12B2547F4E0002FC524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88A1292547F4E0002FC524 /* LaunchScreen.storyboard */; };
+		DB88A1372547F56F002FC524 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1342547F56F002FC524 /* SectionView.swift */; };
+		DB88A1382547F56F002FC524 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1352547F56F002FC524 /* Cell.swift */; };
+		DB88A1392547F56F002FC524 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A1362547F56F002FC524 /* HeaderView.swift */; };
+		DB88A13E2547F5DC002FC524 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88A13D2547F5DC002FC524 /* CustomNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB88A11B2547F4DF002FC524 /* NaverTopHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverTopHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB88A11E2547F4DF002FC524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB88A1202547F4DF002FC524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB88A1222547F4DF002FC524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB88A1222547F4DF002FC524 /* NaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverViewController.swift; sourceTree = "<group>"; };
 		DB88A1252547F4DF002FC524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB88A1272547F4E0002FC524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB88A12A2547F4E0002FC524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB88A12C2547F4E0002FC524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB88A1342547F56F002FC524 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		DB88A1352547F56F002FC524 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		DB88A1362547F56F002FC524 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB88A13D2547F5DC002FC524 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		DB88A11D2547F4DF002FC524 /* NaverTopHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				DB88A13C2547F5CD002FC524 /* ViewController */,
+				DB88A1332547F56F002FC524 /* view */,
 				DB88A11E2547F4DF002FC524 /* AppDelegate.swift */,
 				DB88A1202547F4DF002FC524 /* SceneDelegate.swift */,
-				DB88A1222547F4DF002FC524 /* ViewController.swift */,
 				DB88A1242547F4DF002FC524 /* Main.storyboard */,
 				DB88A1272547F4E0002FC524 /* Assets.xcassets */,
 				DB88A1292547F4E0002FC524 /* LaunchScreen.storyboard */,
 				DB88A12C2547F4E0002FC524 /* Info.plist */,
 			);
 			path = NaverTopHeaderView;
+			sourceTree = "<group>";
+		};
+		DB88A1332547F56F002FC524 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DB88A1342547F56F002FC524 /* SectionView.swift */,
+				DB88A1352547F56F002FC524 /* Cell.swift */,
+				DB88A1362547F56F002FC524 /* HeaderView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DB88A13C2547F5CD002FC524 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB88A1222547F4DF002FC524 /* NaverViewController.swift */,
+				DB88A13D2547F5DC002FC524 /* CustomNavigationController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB88A1232547F4DF002FC524 /* ViewController.swift in Sources */,
+				DB88A1372547F56F002FC524 /* SectionView.swift in Sources */,
+				DB88A1392547F56F002FC524 /* HeaderView.swift in Sources */,
+				DB88A1232547F4DF002FC524 /* NaverViewController.swift in Sources */,
+				DB88A1382547F56F002FC524 /* Cell.swift in Sources */,
 				DB88A11F2547F4DF002FC524 /* AppDelegate.swift in Sources */,
 				DB88A1212547F4DF002FC524 /* SceneDelegate.swift in Sources */,
+				DB88A13E2547F5DC002FC524 /* CustomNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
